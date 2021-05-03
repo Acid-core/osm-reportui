@@ -9,7 +9,7 @@ A standalone Reporting System for FiveM Servers, with a COOL UI for both Players
 - Easy to Setup :)
 
 ### [MY DISCORD](https://discord.gg/jrNxkpVaJU)
-### Previews : [Interface](https://i.imgur.com/4035M0i.png) , [Discord Output](https://i.imgur.com/v5WHTon.png)
+### Previews : [Interface](https://i.imgur.com/4035M0i.png) , [Discord Output](https://i.imgur.com/pxBlNNt.png)
 
 ### SETUP 
 - Script's FOLDER NAME should be set to `osm-reportui`. Using other names will break the script if not edited properly.
