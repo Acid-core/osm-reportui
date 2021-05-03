@@ -22,3 +22,4 @@ A standalone Reporting System for FiveM Servers, with a COOL UI for both Players
 
 This is my first ever attempt to WORK WITH HTML, CSS, JS etc. I haven't made any UI's before. So please excuse me for any Bugs. You can always FIX and create Pull Requests. 
   
+FOLLOW ME UP if you like my work! :)
