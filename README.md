@@ -15,9 +15,9 @@ A standalone Reporting System for FiveM Servers, with a COOL UI for both Players
 Nothing to do if you don't change SCRIPT NAME, but if you do, just change `osm-reportui` in `index.html` (3 occurences). I tried to use `GetResourceName()` but IDK, it was throwing errors. 
 
 ### CREDITS
-- MonkeyWhisper for Testing 
 - JericoFX for Guiding me with the UI Part
 - Ariz for providing basic JS for recieving responses. 
+- MonkeyWhisper for Testing 
 
 This is my first ever attempt to WORK WITH HTML, CSS, JS etc. I haven't made any UI's before. So please excuse me for any Bugs. You can always FIX and create Pull Requests. 
   
