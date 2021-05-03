@@ -12,7 +12,8 @@ A standalone Reporting System for FiveM Servers, with a COOL UI for both Players
 ### Previews : [Interface](https://i.imgur.com/4035M0i.png) , [Discord Output](https://i.imgur.com/v5WHTon.png)
 
 ### SETUP 
-Script's FOLDER NAME should be set to `osm-reportui`. Using other names will break the script if not edited properly.
+- Script's FOLDER NAME should be set to `osm-reportui`. Using other names will break the script if not edited properly.
+- Set DISCORD WEBHOOK in `server.lua`. 
 
 ### CREDITS
 - JericoFX for Guiding me with the UI Part
