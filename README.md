@@ -12,7 +12,7 @@ A standalone Reporting System for FiveM Servers, with a COOL UI for both Players
 ### Previews : [Interface](https://i.imgur.com/4035M0i.png) , [Discord Output](https://i.imgur.com/v5WHTon.png)
 
 ### SETUP 
-Nothing to do if you don't change SCRIPT NAME, but if you do, just change `osm-reportui` in `index.html` (3 occurences). I tried to use `GetResourceName()` but IDK, it was throwing errors. 
+Script's FOLDER NAME should be set to `osm-reportui`. Using other names will break the script if not edited properly.
 
 ### CREDITS
 - JericoFX for Guiding me with the UI Part
