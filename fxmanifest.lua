@@ -2,7 +2,7 @@ fx_version 'cerulean'
 game 'gta5'
 
 name 'osm-reportui'
-description 'Standalone Reporting Script with a UI' 
+description 'Standalone Reporting Script with a Cool UI' 
 
 author 'OSMIUM | discord.io/osmfx'
 
