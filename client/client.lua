@@ -8,9 +8,10 @@ RegisterCommand("reportui", function(args,rawCommand)
     })  
 end)
 
-RegisterNUICallback("exit" , function()
+RegisterNUICallback("exit" , function(data, cb)
     SetNuiFocus(false, false)
 
+    cb(200)
 end)
 
 
@@ -19,4 +20,5 @@ RegisterNUICallback('sumbit', function(data, cb)
     TriggerServerEvent("playersend", data)
     SetNuiFocus(false, false)
 
+    cb(200)
 end)
