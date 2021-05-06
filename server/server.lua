@@ -56,14 +56,10 @@ AddEventHandler('playersend', function(data)
   if not xblid            then xblid1            = "N/A" else xblid1            = xblid           end
   if not discord          then discord1          = "N/A" else discord1          = discord          end
   if not playerip         then playerip1        = "N/A" else playerip1           = playerip         end
-  
-if discord1 ~= "N/A" and discordsrc ~= "N/A" then 
-  local discordid, replaced = string.gsub(discord1, "discord:", "")
-  local discordidsrc, replaced = string.gsub(discordsrc, "discord:", "")
-else
-  local discordid == "N/A"
-  local discordidsrc == "N/A"
-end 
+  if not discordsrc         then discordidsrc1        = "N/A" else discordidsrc1           = discordsrc         end
+
+local discordid, replaced = string.gsub(discord1, "discord:", "")
+  local discordidsrc, replaced = string.gsub(discordidsrc1, "discord:", "")
 
 --print(newStr)
     local connect = {
