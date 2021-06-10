@@ -41,7 +41,7 @@
         if (e.key === "Escape") {
             $("#container").slideUp();
             setTimeout(() => {
-                $.post(`https://${GetParentResourceName()}/exit`, JSON.stringify({}));
+                $.post(`https://${GetCurrentResourceName()}/exit`, JSON.stringify({}));
             }, 300);
         }
     });
@@ -55,10 +55,10 @@
         }
         $("#container").slideUp();
         setTimeout(() => {
-                $.post(`https://${GetParentResourceName()}/exit`, JSON.stringify({}));
+                $.post(`https://${GetCurrentResourceName()}/exit`, JSON.stringify({}));
         }, 100);
     
-        $.post(`https://${GetParentResourceName()}/sumbit`, JSON.stringify({
+        $.post(`https://${GetCurrentResourceName()}/sumbit`, JSON.stringify({
             name: $("#name").val(),     
             message: $("#message").val(),
         })
