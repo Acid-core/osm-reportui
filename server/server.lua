@@ -1,6 +1,6 @@
 -- MADE BY OSMIUM - DISCORD.IO/OSMFX --
 
-local DISCORD_WEBHOOK = ""
+local DISCORD_WEBHOOK = "k"
 
 RegisterServerEvent('playersend')
 AddEventHandler('playersend', function(data)
